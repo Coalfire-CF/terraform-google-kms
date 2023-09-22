@@ -10,9 +10,9 @@ FedRAMP Compliance: High
 
 ```
 module "kms" {
-  source = "github.com/Coalfire-CF/ACE-GCP-KMS"
+  source = "github.com/Coalfire-CF/terraform-gcp-kms"
 
-  project_id = google_project.management.project_id
+  project_id = "project-id"
   location   = var.region
   keyring    = "${var.keyring_prefix}-cmeks"
   keys       = local.cmeks

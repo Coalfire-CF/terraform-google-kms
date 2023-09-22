@@ -3,6 +3,11 @@ variable "project_id" {
   type        = string
 }
 
+variable "region" {
+  description = "The location for the KeyRing. A full list of valid locations can be found by running gcloud kms locations list."
+  type = string
+}
+
 variable "keyring" {
   description = "Keyring name."
   type        = string
