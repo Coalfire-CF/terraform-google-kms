@@ -63,7 +63,6 @@ No modules.
 | <a name="input_location"></a> [location](#input\_location) | Location for the keyring. | `string` | n/a | yes |
 | <a name="input_project_id"></a> [project\_id](#input\_project\_id) | Project id where the keyring will be created. | `string` | n/a | yes |
 | <a name="input_purpose"></a> [purpose](#input\_purpose) | The immutable purpose of the CryptoKey. Possible values are ENCRYPT\_DECRYPT, ASYMMETRIC\_SIGN, and ASYMMETRIC\_DECRYPT. | `string` | `"ENCRYPT_DECRYPT"` | no |
-| <a name="input_region"></a> [region](#input\_region) | The location for the KeyRing. A full list of valid locations can be found by running gcloud kms locations list. | `string` | n/a | yes |
 
 ## Outputs
 
