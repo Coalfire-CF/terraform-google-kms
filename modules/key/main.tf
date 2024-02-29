@@ -1,6 +1,6 @@
 resource "google_kms_crypto_key" "key" {
 
-  key_ring = google_kms_key_ring.key_ring.id
+  key_ring = var.key_ring_id
   name     = var.key
   #checkov:skip=CKV_GCP_43:Rotation period is correctly set for daily
   rotation_period = var.key_rotation_period
@@ -16,4 +16,8 @@ resource "google_kms_crypto_key" "key" {
   }
 
   labels = var.labels
+}
+
+data "google_kms_crypto_key_version" "version" {
+  crypto_key = google_kms_crypto_key.key.id
 }
