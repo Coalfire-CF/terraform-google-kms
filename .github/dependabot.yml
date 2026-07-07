@@ -7,11 +7,14 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+      time: "13:31"
   - package-ecosystem: "terraform"
     directory: "/"
     schedule:
       interval: "daily"
+      time: "13:31"
   - package-ecosystem: "terraform"
     directory: "/modules/key"
     schedule:
       interval: "daily"
+      time: "13:31"
