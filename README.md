@@ -73,3 +73,23 @@ No modules.
 | <a name="output_keyring_resource"></a> [keyring\_resource](#output\_keyring\_resource) | Keyring resource. |
 | <a name="output_keys"></a> [keys](#output\_keys) | Map of key name => key self link. |
 <!-- END_TF_DOCS -->
+## Tree
+
+```text
+.
+|-- CHANGELOG.md
+|-- CONTRIBUTING.md
+|-- LICENSE
+|-- README.md
+|-- coalfire_logo.png
+|-- main.tf
+|-- modules
+|   |-- key
+|       |-- README.md
+|       |-- main.tf
+|       |-- outputs.tf
+|       |-- variables.tf
+|-- outputs.tf
+|-- release-please-config.json
+|-- variables.tf
+```
