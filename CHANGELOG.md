@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.1](https://github.com/Coalfire-CF/terraform-google-kms/compare/v1.1.0...v1.1.1) (2026-07-24)
+
+
+### Bug Fixes
+
+* **release:** pass secrets to org-release (App token for release-please) ([#37](https://github.com/Coalfire-CF/terraform-google-kms/issues/37)) ([5ce8aad](https://github.com/Coalfire-CF/terraform-google-kms/commit/5ce8aad720c5061002a9ca84cf8ca9050eb20568))
+
+
+### Miscellaneous
+
+* adopt Actions v0.12.1 (bypass auto-merge + event-driven re-merge) ([13b756f](https://github.com/Coalfire-CF/terraform-google-kms/commit/13b756f524d517ee56ec2236d63497aaf0a7eec2))
+* **ci:** adopt Coalfire-CF/Actions v0.11.3 ([#35](https://github.com/Coalfire-CF/terraform-google-kms/issues/35)) ([0d8d04a](https://github.com/Coalfire-CF/terraform-google-kms/commit/0d8d04ad5238b3547de6aee20834e9cac57f297e))
+* **deps:** bump the org-actions group with 10 updates ([#39](https://github.com/Coalfire-CF/terraform-google-kms/issues/39)) ([02a8f03](https://github.com/Coalfire-CF/terraform-google-kms/commit/02a8f037008c0059c7edd94641d7e054b4958132))
+* **deps:** bump the org-actions group with 10 updates ([#40](https://github.com/Coalfire-CF/terraform-google-kms/issues/40)) ([67d8544](https://github.com/Coalfire-CF/terraform-google-kms/commit/67d8544a31a28eee75d2ba77c3b2b90ca67af0d4))
+* **deps:** bump the org-actions group with 10 updates ([#41](https://github.com/Coalfire-CF/terraform-google-kms/issues/41)) ([563bf65](https://github.com/Coalfire-CF/terraform-google-kms/commit/563bf65448b0e05e2c774dac949caebc3c47af53))
+* **deps:** bump the org-actions group with 9 updates ([#38](https://github.com/Coalfire-CF/terraform-google-kms/issues/38)) ([614be86](https://github.com/Coalfire-CF/terraform-google-kms/commit/614be86d56bf162d53626ba46492d267cd5c4476))
+
 ## [1.1.0](https://github.com/Coalfire-CF/terraform-google-kms/compare/v1.0.4...v1.1.0) (2026-07-05)
 
 
