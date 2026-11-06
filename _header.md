@@ -5,7 +5,9 @@
 
 ## Description
 
-Simple Cloud KMS module that allows managing a keyring, zero or more keys in the keyring, and IAM role bindings on individual keys. Coalfire has tested this module with Terraform version 1.5.0 and the Hashicorp Google provider versions 4.70 - 5.0.
+Simple Cloud KMS module that allows managing a keyring, zero or more keys in the keyring, and IAM role bindings on
+individual keys. Coalfire has tested this module with Terraform version 1.5.0 and the Hashicorp Google provider versions
+4.70 - 5.0.
 
 FedRAMP Compliance: High
 
